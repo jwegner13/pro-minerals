@@ -1,0 +1,173 @@
+.the-main-nav .menu {
+
+	list-style: none;
+	float: right;
+
+	& li {
+
+		display: inline-block;
+		position: relative;
+
+		&:after {
+
+			content: "";
+			padding-right: 2em;
+
+		}
+
+		&:last-child:after{
+
+			content: "";
+			padding-right: 0;
+
+		}
+
+		& .sub-menu {
+	
+			display: none;
+
+		}
+
+		&:hover .sub-menu {
+
+			display: block;
+
+		}
+
+		& a {
+
+			font-family: 'Oswald', sans-serif;
+			font-weight: 400;
+			color: black;
+			font-size: 22px;
+
+
+			&:hover {
+
+				color: #1fa3fc;
+
+
+			}
+
+		}
+
+
+	}
+
+}
+
+
+.sub-menu {
+
+	position: absolute;
+	z-index: 999;
+	margin: 0;
+	// float: right;
+	background: #4C535D;
+	padding: 1em;
+	clear: both;
+	float: left;
+	min-width: 10em;
+	right: 0;
+
+	& li {
+
+		display: block !important;
+		// float: left;
+		text-align: right;
+
+		&:after {
+
+			padding-right: 0 !important;
+
+		}
+
+	}
+
+}
+
+// .current_page_item a {
+
+// 	color: #1fa3fc !important;
+
+// }
+
+.the-main-nav {
+
+	padding: 2.7em 0;
+
+}
+
+
+
+// Footer Navigation Styles
+
+.footer-nav {
+
+	font-weight: 400;
+	background: #4c535d;
+	padding: 1em 0;
+
+	& .sub-menu {
+
+		display: none;
+
+	}
+
+	& ul {
+
+		list-style: none;
+		margin: 0;
+
+		& li {
+
+			display: inline;
+
+			&:after {
+
+				content: "";
+				// max-width:4em;
+
+			}
+
+			&:first-child {
+
+				& a:before {
+
+					padding-left: -1em;
+
+				}
+
+			}
+
+			& a {
+
+				color: black;
+
+
+
+				&:after {
+
+					content: "";
+					padding-right: 1em;
+
+				}
+
+
+				&:hover {
+
+					color: #1fa3fc;
+
+				}
+
+			}
+
+
+
+		}
+
+	}
+
+}
+
+

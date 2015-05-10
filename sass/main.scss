@@ -1,0 +1,155 @@
+@import 'variables';
+@import 'breakpoints';
+@import 'navigation';
+@import 'barrel-price';
+
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
+
+html {
+	height: 100%;
+}
+
+body {
+
+	font-family: Helvetica;
+	background: url("../theme-images/oil-rig.jpg") #000 no-repeat top center;
+	background-size: cover;
+	background-attachment: fixed;
+	font-size: 16px;
+	position: relative;
+	padding-bottom: 4rem;
+	min-height: 100%;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+	font-family: 'Oswald', sans-serif;
+
+}
+
+p {
+
+	font-weight: 100;
+
+}
+
+a {
+
+	@extend p;
+
+}
+
+
+.site-header {
+
+	background: url("../theme-images/concrete-texture.jpg") repeat;
+	// padding: 4em 0 0 0;
+	// position: fixed;
+	z-index: 999;
+	width: 100%;
+	top: 0px;
+	min-height: 150px;
+	border-bottom: 3px solid $mute-gray;
+
+}
+
+.logo {
+
+	padding: 1em 0;
+
+	& img {
+
+		width: 70%;
+
+	}
+
+}
+
+.second-bar {
+
+	background: url("../theme-images/felt-pattern.jpg") repeat;
+	// position: fixed;
+	width: 100%;
+	padding: .5em 0;
+	border-top: 3px solid $mute-gray;
+
+
+}
+
+.site-content {
+	margin: 9em auto 9em;
+}
+
+.content-area {
+
+	background: url("../theme-images/transparent-white.png") repeat;
+	padding: 2em;
+	
+	border: 2px solid white;
+	
+	@media only screen and (min-width: 40.063em) { 
+
+		// margin: -5px;
+
+	}
+
+	@media only screen and (max-width: 40em) {
+
+	}
+}
+
+.widget-area {
+
+	@extend .content-area;
+
+	& h1 {
+
+		font-size: 22px;
+
+	}
+
+}
+
+footer {
+
+	// @media #{$medium-up} { 
+	
+	// 	position: fixed;
+	// 	right: 0;
+	// 	bottom: 0;
+	// 	left: 0;
+	// 	padding: 1rem;
+	// 	display: none;
+
+	// }
+	
+	// @media only screen and (min-width: 40.063em) { 
+
+	// 	position: fixed;
+	// 	right: 0;
+	// 	bottom: 0;
+	// 	left: 0;
+	// 	padding: 1rem;
+
+	// }
+
+	
+
+}
+
+.site-footer {
+
+	background: url("../theme-images/felt-pattern.jpg") repeat;
+	padding: 1.5em;
+	border-top: 3px solid $mute-gray;
+	color: black;
+
+	& p {
+
+		margin-bottom: 0;
+		line-height: normal;
+
+	}
+
+}

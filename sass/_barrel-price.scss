@@ -1,0 +1,68 @@
+.barrel-wrapper {
+
+	background: #f9f9f9;
+	// width: 70%;
+	float: left;
+
+}
+
+.second-bar p {
+
+	
+	font-size: 12px;
+
+}
+
+.second-bar table {
+
+	margin-bottom: 0;
+	background: #F9F9F9;
+	border: none !important;
+	
+}
+
+.second-bar td {
+
+	border: none !important;
+
+}
+
+
+.barrel-label {
+
+	min-width: 160px;
+	float: left;
+	color: #f9f9f9;
+	background: gray;
+	max-height: 40px;
+	padding: .7em;
+
+}
+
+table a {
+	display: none;
+}
+
+table {
+	border: 0px !important;
+	background-color: transparent !important;
+}
+
+table tbody tr td table tbody tr:first-child {
+	display: none;
+}
+
+table tbody tr td table tbody tr:nth-child(2) span {
+	color: #777 !important;
+	background-color: #F9F9F9 !important;
+}
+
+table tbody tr td table tbody tr:last-child {
+	display: none;
+}
+
+table tbody tr:last-child {
+	
+	display: none;
+
+}

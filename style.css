@@ -1,0 +1,19 @@
+/*
+Theme Name: Pro Mineral Partners
+Theme URI: http://jkwcreated.com/
+Author: JKW Created
+Author URI: http://jkwcreated.com/
+Description: This theme is custom for Pro Mineral Partners.
+Version: 1.0.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: pro-mineral-partners
+Tags:
+
+*/
+
+
+/*Imports all the styles for Foundaiton*/
+@import url('foundation/css/foundation.min.css');
+
+/*Imports all-the-styles!!*/
+@import url('stylesheets/main.css');
