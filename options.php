@@ -122,6 +122,13 @@ function optionsframework_options() {
 	);
 
 	// $options[] = array(
+	// 	'name' => __( 'Background Image', 'theme-bg-image' ),
+	// 	'desc' => __( 'Background Image for the enitre site.', 'theme-bg-image' ),
+	// 	'id' => 'theme_bg_image',
+	// 	'type' => 'upload'
+	// );
+
+	// $options[] = array(
 	// 	'name' => __( 'Basic Settings', 'theme-textdomain' ),
 	// 	'type' => 'heading'
 	// );
