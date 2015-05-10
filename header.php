@@ -15,6 +15,10 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
 <?php wp_head(); ?>
+
+<?php echo of_get_option('theme_trackingcode', ''); ?>
+
+
 </head>
 
 <body <?php body_class(); ?>>

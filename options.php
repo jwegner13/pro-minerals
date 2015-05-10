@@ -121,6 +121,14 @@ function optionsframework_options() {
 		'type' => 'checkbox'
 	);
 
+	$options[] = array(
+		'name' => __( 'Tracking Code', 'theme-trackingcode' ),
+		'desc' => __( 'Input website tracking code here', 'theme-trackingcode' ),
+		'id' => 'tracking_code',
+		'std' => 'Put Tracking Code Here',
+		'type' => 'textarea'
+	);
+
 	// $options[] = array(
 	// 	'name' => __( 'Background Image', 'theme-bg-image' ),
 	// 	'desc' => __( 'Background Image for the enitre site.', 'theme-bg-image' ),
