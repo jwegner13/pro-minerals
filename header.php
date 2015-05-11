@@ -15,8 +15,9 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
 <?php wp_head(); ?>
-
-<?php echo of_get_option('theme_trackingcode', ''); ?>
+<script>
+	<?php echo of_get_option('tracking_code', ''); ?>
+</script>
 
 
 </head>
