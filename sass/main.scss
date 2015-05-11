@@ -124,15 +124,15 @@ footer {
 
 	// }
 	
-	// @media only screen and (min-width: 40.063em) { 
+	@media only screen and (min-width: 40.063em) { 
 
-	// 	position: fixed;
-	// 	right: 0;
-	// 	bottom: 0;
-	// 	left: 0;
-	// 	padding: 1rem;
+		position: fixed;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		// padding: 1rem;
 
-	// }
+	}
 
 	
 
@@ -141,7 +141,7 @@ footer {
 .site-footer {
 
 	background: url("../theme-images/felt-pattern.jpg") repeat;
-	padding: 1.5em;
+	// padding: 1.5em;
 	border-top: 3px solid $mute-gray;
 	color: black;
 

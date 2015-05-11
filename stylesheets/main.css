@@ -71,38 +71,39 @@
   font-weight: 400;
   background: #4c535d;
   padding: 1em 0;
+  margin-bottom: 1em;
 }
-/* line 111, ../sass/_navigation.scss */
+/* line 112, ../sass/_navigation.scss */
 .footer-nav .sub-menu {
   display: none;
 }
-/* line 117, ../sass/_navigation.scss */
+/* line 118, ../sass/_navigation.scss */
 .footer-nav ul {
   list-style: none;
   margin: 0;
 }
-/* line 122, ../sass/_navigation.scss */
+/* line 123, ../sass/_navigation.scss */
 .footer-nav ul li {
   display: inline;
 }
-/* line 126, ../sass/_navigation.scss */
+/* line 127, ../sass/_navigation.scss */
 .footer-nav ul li:after {
   content: "";
 }
-/* line 135, ../sass/_navigation.scss */
+/* line 136, ../sass/_navigation.scss */
 .footer-nav ul li:first-child a:before {
   padding-left: -1em;
 }
-/* line 143, ../sass/_navigation.scss */
+/* line 144, ../sass/_navigation.scss */
 .footer-nav ul li a {
   color: black;
 }
-/* line 149, ../sass/_navigation.scss */
+/* line 150, ../sass/_navigation.scss */
 .footer-nav ul li a:after {
   content: "";
   padding-right: 1em;
 }
-/* line 157, ../sass/_navigation.scss */
+/* line 158, ../sass/_navigation.scss */
 .footer-nav ul li a:hover {
   color: #1fa3fc;
 }
@@ -242,10 +243,19 @@ p, a {
   font-size: 22px;
 }
 
+@media only screen and (min-width: 40.063em) {
+  /* line 114, ../sass/main.scss */
+  footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+}
+
 /* line 141, ../sass/main.scss */
 .site-footer {
   background: url("../theme-images/felt-pattern.jpg") repeat;
-  padding: 1.5em;
   border-top: 3px solid #353535;
   color: black;
 }

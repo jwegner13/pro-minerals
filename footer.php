@@ -10,15 +10,16 @@
 
 	</div><!-- #content -->
 	
-	<nav class="footer-nav">
-		<div class="row">
-			<div class="small-12 columns">
-				<?php wp_nav_menu( array('theme_location' => 'secondary' )); ?>
-			</div>
-		</div>
-	</nav>
+	
 
 	<footer id="colophon" class="site-footer">
+		<nav class="footer-nav">
+			<div class="row">
+				<div class="small-12 columns">
+					<?php wp_nav_menu( array('theme_location' => 'secondary' )); ?>
+				</div>
+			</div>
+		</nav>
 		<div class="site-info row">
 			<div class="small-12 medium-7 columns">
 				<p>&copy; <?php echo date("Y"); ?> Pro Mineral Partners</p> 
