@@ -58,9 +58,18 @@ a {
 
 	padding: 1em 0;
 
+	@media only screen and (min-width: 40.063em) { 
+
+		& img {
+
+			width: 70% !important;
+
+		}
+	}
+
 	& img {
 
-		width: 70%;
+		width: 100%;
 
 	}
 
@@ -75,6 +84,10 @@ a {
 	border-top: 3px solid $mute-gray;
 
 
+}
+
+.maincontainer {
+	min-height: 600px;
 }
 
 .site-content {
@@ -123,16 +136,26 @@ footer {
 	// 	display: none;
 
 	// }
-	
-	@media only screen and (min-width: 40.063em) { 
+	// 
+	@media only screen and (max-width: 30.063em) { 
 
-		position: fixed;
-		right: 0;
-		bottom: 0;
-		left: 0;
+		position: normal;
+		// right: 0;
+		// bottom: 0;
+		// left: 0;
 		// padding: 1rem;
 
 	}
+	
+	// @media only screen and (min-width: 50.063em) { 
+
+	// 	position: fixed;
+	// 	right: 0;
+	// 	bottom: 0;
+	// 	left: 0;
+	// 	// padding: 1rem;
+
+	// }
 
 	
 

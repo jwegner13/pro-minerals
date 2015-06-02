@@ -61,6 +61,6 @@
 
 	</header><!-- #masthead -->
 
-	
+	<section class="maincontainer">
 
 	<div id="content" class="site-content row">
