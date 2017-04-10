@@ -15,14 +15,15 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
 <?php wp_head(); ?>
-<script>
-	<?php echo of_get_option('tracking_code', ''); ?>
-</script>
+
 
 
 </head>
 
 <body <?php body_class(); ?>>
+	<script>
+		<?php echo of_get_option('tracking_code', ''); ?>
+	</script>
 <div id="page" class="hfeed site">
 
 	<header id="" class="site-header">
@@ -54,9 +55,9 @@
 					<?php //} ?>
 				</div>
 				<div class="small-5 columns end">
-					
-				</div>			
-			</div>		
+
+				</div>
+			</div>
 		</div>
 
 	</header><!-- #masthead -->
