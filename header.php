@@ -30,7 +30,7 @@
 			<div class="small-12 medium-5 columns">
 				<div class="logo">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-						<img src="<?php echo of_get_option('theme_logo', ''); ?>" alt="Pro Mineral Partners" />
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/theme-images/Pro-Minerals-Logo.png" alt="Pro Mineral Partners" />
 					</a>
 				</div>
 			</div>
@@ -42,7 +42,7 @@
 		<div class="second-bar">
 			<div class="row">
 				<div class="small-7 columns">
-					<?php if ( of_get_option('show_barrel_checkbox') == '1' ) { ?>
+					<?php //if ( of_get_option('show_barrel_checkbox') == '1' ) { ?>
 					<div class="barrel-label">
 						<p>Current Price Per Barrel</p>
 					</div>
@@ -51,7 +51,7 @@
 							src="http://www.oil-price.net/TABLE2/gen.php?lang=en">
 						</script>
 					</div>
-					<?php } ?>
+					<?php //} ?>
 				</div>
 				<div class="small-5 columns end">
 					

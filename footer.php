@@ -27,7 +27,7 @@
 			</div>
 			<div class="small-12 medium-3 columns">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-					<img src="<?php echo of_get_option('theme_footer_logo', ''); ?>" alt="Pro Mineral Partners" />
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/theme-images/Pro-Minerals-Logo.png" alt="Pro Mineral Partners" />
 				</a>
 			</div>
 

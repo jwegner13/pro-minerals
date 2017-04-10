@@ -201,6 +201,7 @@ html {
 /* line 12, ../sass/main.scss */
 body {
   font-family: Helvetica;
+  background: url("../theme-images/oil-rig.jpg") #000 no-repeat top center;
   background-size: cover;
   background-attachment: fixed;
   font-size: 16px;
